@@ -191,7 +191,7 @@ body {
 /*Секция чем мы занимаемся*/
 
 .header-title {
-  color: var(--primary-bg-color);
+  color: var(--primary-text-color);
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -331,4 +331,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-bg-color);
   background: var(--subtitle-text-color);
+}
+.link {
+  text-decoration: none;
 }
