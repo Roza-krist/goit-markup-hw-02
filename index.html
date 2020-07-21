@@ -12,32 +12,36 @@
 </head>
 
 <body>
+    
     <!--Оглавление с навигацией-->
     <header>
+       <div class="container">
         <nav>
             <a href="./" class="logo"><span class="logo-web">Web</span>Studio</a>
             <ul class="site-nav list">
-                <li><a href="./index .html" class="link-active">Студия</a></li>
+                <li><a href="./index.html" id="link-active">Студия</a></li>
                 <li><a href="./portfolio.html" class="link">Портфолио</a></li>
                 <li><a href="" class="link">Контакты</a></li>
             </ul>
         </nav>
-        <address class="contact">
+        </div>
+        <div class="container">
+        <address class="contact container">
             <a href="mailto:info@devstudio.com"><img src="./images/envelope-picture.svg" alt="" />
                 info@devstudio.com
             </a>
             <a href="tel:+380961111111"><img src="./images/telephone.svg" alt="" /> +38 096 111 11 11
             </a>
         </address>
+        </div>
     </header>
-    <div>
         <!--Герой-->
-        <section>
+        <section class="hero container"> 
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="button">Заказать услугу</button>
+            <button type="button" class="button centered">Заказать услугу</button>
         </section>
     </div>
-    <section class="section">
+    <section class="section container">
         <ul class="list">
             <li>
                 <img src="./images/antenna1.svg" alt="Внимание к деталям" />
@@ -74,7 +78,7 @@
         </ul>
     </section>
     <!--Чем мы занимаемся-->
-    <section>
+    <section class="we-do container">
         <h2 class="header-title">Чем мы занимаемся</h2>
         <ul class="list">
             <li>
@@ -95,67 +99,67 @@
         </ul>
     </section>
     <!--Наша команда-->
-    <section class="team-section">
+    <section class="team-section container">
         <h2 class="header-title">Наша команда</h2>
-        <ul class="list">
-            <li>
+        <ul class="list-team">
+            <li class="list">
                 <img lang="en" src="./images/team-img1.png" alt="Product Designer" />
                 <h3 class="team-section-subtitle">Николай Кучеренко</h3>
                 <p lang="en" class="team-section-prof">Product Designer</p>
             </li>
             <li>
-                <ul>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Twitter></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Facebook></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=LinkdedIn></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Instagram></a></li>
+                <ul class="list">
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Instagram>Instagram</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Twitter>Twitter</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Facebook">Facebook</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=LinkdedIn>LinkdedIn</a></li>
                 </ul>
             </li>
-            <li>
+            <li class="list">
                 <img src="./images/team-img2.png" alt="Frontend Developer" />
                 <h3 class="team-section-subtitle">Ольга Иванова</h3>
                 <p lang="en" class="team-section-prof">Frontend Developer</p>
             </li>
             <li>
-                <ul>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Instagram></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Twitter></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Facebook></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=LinkdedIn></a></li>
+                <ul class="list">
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Instagram>Instagram</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Twitter>Twitter</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Facebook">Facebook</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=LinkdedIn>LinkdedIn</a></li>
                 </ul>
             </li>
-            <li>
+            <li class="list">
                 <img src="./images/team-img3.png" alt="Marketing" />
                 <h3 class="team-section-subtitle">Андрей Шевченко</h3>
                 <p lang="en" class="team-section-prof">Marketing</p>
             </li>
             <li>
-                <ul>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Instagram></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Twitter></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Facebook></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=LinkdedIn></a></li>
+                <ul class="list">
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Instagram>Instagram</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Twitter>Twitter</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Facebook">Facebook</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=LinkdedIn>LinkdedIn</a></li>
                 </ul>
             </li>
-            <li>
+            <li class="list">
                 <img src="./images/team-img4.png" alt="UI Designer" />
                 <h3 class="team-section-subtitle">Иван Николаев</h3>
                 <p lang="en" class="team-section-prof">UI Designer</p>
             </li>
             <li>
-                <ul>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Instagram></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Twitter></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Facebook></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=LinkdedIn></a></li>
+                <ul class="list">
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Instagram>Instagram</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Twitter>Twitter</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Facebook">Facebook</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=LinkdedIn>LinkdedIn</a></li>
                 </ul>
             </li>
         </ul>
     </section>
     <!--Постоянные клиенты-->
-    <section>
+    <section class="clients container">
         <h2 class="header-title">Постоянные клиенты</h2>
-        <ul>
+        <ul class="list">
             <li><a href="" target="_blank" rel="noopener noreferrer" aria-label="ссылка на YA & CO">YA & CO</a></li>
             <li><a href="" target="_blank" rel="noopener noreferrer" aria-label="ссылка на COMPANY tagline here>COMPANY tagline here</a></li>
                             <li><a href="" target=" _blank" rel="noopener noreferrer"
@@ -169,9 +173,9 @@
         </ul>
     </section>
     <footer>
-        <div>
+        <div class="footer">
+            <section class="footer-logo">
             <a href="./" class="logo"><span class="logo-web">Web</span>Studio</a>
-            <section>
                 <address class="address-section">
                     <ul class="address list">
                         <li class="address"><a href="https://goo.gl/maps/P8fqoHQZkP2FviwH6" target="_blank rel="
@@ -187,10 +191,10 @@
                     Присоединяйтесь
                 </h2>
                 <ul class="join list">
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Instagram></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Twitter></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Facebook></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=LinkdedIn></a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Instagram>Instagram</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Twitter>Twitter</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=Facebook>Facebook</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer" aria-label=LinkdedIn>LinkdedIn</a></li>
                 </ul>
             </section>
             <section>
